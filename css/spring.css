@@ -1,0 +1,177 @@
+*{margin: 0;padding: 0;}
+@font-face {
+    font-family: fzxjl;
+    src: url(../font/FZXiJinLJW.TTF);
+}
+li
+{
+    list-style: none;
+}
+body
+{
+    background-color:white; /*网页背景颜色*/
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover p
+{
+    text-decoration: underline;
+}
+.title_1
+{
+    width: 100%;height: 50px;
+}
+.title_1 .ynu
+{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.title_1 .ynu p/*左上角学校标识*/
+{
+    font-family:宋体;
+    text-align:left;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.title_1 .back
+{
+    height: 30px;
+    width: 50px;
+    float: right;
+    margin-top: 9px;
+    margin-right: 30px;
+}
+.title_1 .back p
+{
+    font-family:宋体;
+    text-align:left;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+}
+.box_1
+{
+    width: 1100px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.title_2 p
+{
+    font-family: fzxjl;
+    text-align:center;
+    color:black;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight:normal;
+    letter-spacing: 30px; 
+}
+.xianlu/*根据线路图大小自行修改*/
+{
+    margin-top: 10px;
+    width: 666px;
+    height: 999px;
+    float: left;
+    margin-left: 0px;
+
+}
+.xianlu img
+{
+    width: 100%;
+    height: 100%;
+}
+.jingdian_js
+{
+    margin-top: 10px;
+    width: 280px;
+    height: 570px; /*xianlu的height+jingdian1和jingdian2的height*/
+    float: right;
+    margin-right: 0px;
+}
+.s_title
+{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 70px;
+}
+.s_title>p
+{
+    font-family: fzxjl;
+    color:black;
+    font-size: 30px;
+    border-left: 5px solid rgb(223, 76, 155);
+    padding-left: 10px;
+}
+.jingdian_js li
+{
+    height: 120px;
+    width: 340px;
+    margin-bottom: 70px;
+    /* height*4+margin-bottom*3=jingidan_js的height */
+    /* picture_1和jingdian img的width都要和这个一样 */
+}
+.jingdian_js img
+{
+    height: 100%;
+    width: 120px;
+    transition: 0.5s;
+}
+.jingdian_js li p
+{
+    display: inline-block;
+    font-size: 25px;
+    font-family: fzxjl;  
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.jingdian_js li span1
+{
+    font-size: 18px;
+    font-family: 宋体;
+}
+.jingdian_js li span2
+{
+    font-size: 18px;
+    font-family: 宋体;
+}
+.jingdian_js li span3
+{
+    font-size: 18px;
+    font-family: 宋体;
+}
+.jingdian_js li span4
+{
+    font-size: 18px;
+    font-family: 宋体;
+}
+.picture_1
+{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+.jingdian_js a:hover img
+{
+    transform: scale(1.1);
+} 
+.bottom_box
+{
+    float: left;
+    height: 30px;
+    width: 100%;
+    background-color:whitesmoke ;
+    margin-top: 40px;
+}
+.bottom_box p
+{
+    text-align: center;
+    line-height: 30px;
+}
