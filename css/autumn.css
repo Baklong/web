@@ -68,7 +68,7 @@ a:hover p
     text-align:center;
     color:black;
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight:normal;
     letter-spacing: 30px; 
 }
@@ -85,6 +85,7 @@ a:hover p
 {
     width: 100%;
     height: 100%;
+    border-radius: 20px
 }
 .jingdian_js
 {
@@ -113,6 +114,7 @@ a:hover p
     height: 120px;
     width: 340px;
     margin-bottom: 70px;
+    border-radius: 20px
     /* height*4+margin-bottom*3=jingidan_js的height */
     /* picture_1和jingdian img的width都要和这个一样 */
 }
@@ -121,6 +123,7 @@ a:hover p
     height: 100%;
     width: 120px;
     transition: 0.5s;
+    border-radius: 20px
 }
 .jingdian_js li p
 {

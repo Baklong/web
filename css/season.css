@@ -23,7 +23,6 @@ a
 .title_1
 {
     width: 100%;height: 50px;
-    background-color:white; 
 }
 .title_1 .ynu
 {
@@ -116,6 +115,7 @@ a
     width: 100%;
     height: auto;
     transition: 0.5s;
+    border-radius: 20px
 }
 .picture_1
 {

@@ -115,6 +115,7 @@ a:hover p
     width: 500px;
     height: 281.25px;
     transition: 0.5s;
+    border-radius: 20px
 }
 .bottom_box
 {

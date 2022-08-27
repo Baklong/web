@@ -59,6 +59,7 @@ a
     float: right;
     margin-top: 10px;    
     overflow: hidden;
+    border-radius: 20px
 }
 .main_picture img /*右侧主视觉图*/
 {
@@ -86,6 +87,7 @@ a
     width: 313px;
     height: 200px;
     transition: 0.5s;
+    border-radius: 20px
 }
 .areaintro p
 {
@@ -117,6 +119,7 @@ a
     height: 120px;
     width: 120px;
     transition: 0.5s;
+    border-radius: 20px
 }
 .areachar li p
 {
